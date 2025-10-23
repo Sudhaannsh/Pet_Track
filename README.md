@@ -1,10 +1,16 @@
-# pettrack
+# PetTrack - A Lost and Found App for Pets
 
-A new Flutter project.
+The Problem: The Agony of a Lost Pet/Losing a pet is a deeply stressful experience for any owner. Current methods are fragmented: scattered posts on social media, physical flyers, and calls to local shelters. This process is slow, inefficient, and relies heavily on luck, while time is critical.
 
-## Getting Started
+Our Solution: PetTrack; A dedicated, centralized platform for lost and found pets. PetTrack leverages technology to connect pet owners with finders in the community quickly and efficiently. Our mission is to reduce the time pets are separated from their families by providing smart, location-aware tools.
 
-This project is a starting point for a Flutter application.
+## Technology Stack
+
+Framework: Flutter (Dart)
+Backend & Database: Firebase (Firestore, Auth, Storage, Functions)
+Machine Learning: TensorFlow Lite (for on-device image similarity)
+Mapping: Open Street APIs
+IDE: Visual Studio Code / Android Studio
 
 A few resources to get you started if this is your first Flutter project:
 
