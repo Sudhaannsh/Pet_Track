@@ -754,7 +754,9 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('PetTrack'),
+        title: const Text(
+          'PetTrack',
+          ),
         actions: [
           IconButton(
             icon: const Icon(Icons.image_search),
@@ -869,8 +871,8 @@ class FilterableHomeTab extends StatelessWidget {
               Tab(text: 'Lost Pets'),
               Tab(text: 'Found Pets'),
             ],
-            labelColor: Colors.blue,
-            unselectedLabelColor: Colors.grey,
+            labelColor: Color.fromARGB(255, 6, 228, 195),
+            unselectedLabelColor: Color.fromARGB(255, 50, 49, 49),
           ),
 
           if (searchQuery.isNotEmpty)
